@@ -29,7 +29,6 @@ lerna-debug.log*
 pnpm-debug.log*
 
 # Package manager lock files
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .pnpm-store/
@@ -102,7 +101,7 @@ jspm_packages/
 .next/
 .next
 out/
-.vercel/
+# (Allow Vercel project config to be tracked)
 
 # Nuxt.js build / generate output
 .nuxt/
@@ -634,8 +633,6 @@ $RECYCLE.BIN/
 
 # ===== CLOUD & DEPLOYMENT =====
 # Vercel
-.vercel/
-.vercel
 
 # Netlify
 .netlify/
